@@ -35,7 +35,7 @@ async function getEmailQuestions(email) {
       content:
         "For this email: " +
         email.replace(/(\r\n|\n|\r)/gm, "") +
-        " If there is anything that needs to be addressed, write questions from the perspective of the email sender, focusing on their requests and concerns. It is only necessary to provide as few as one question if that addresses everything. Do not include questions that are not directly mentioned as things that need to be addressed. Only ask questions that are necessary for addressing what is mentioned in the email. Always format the questions as a numbered list, with each question on a new line. Ensure the questions capture the exact context of the sender's request, without altering the meaning or intention. Make the perspective of the questions from the assistant that is trying to provide all the proper and necessary questions to the email receiver.",
+        "redacted prompt",
     },
   ]);
   const questionList = [];
